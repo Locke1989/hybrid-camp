@@ -754,15 +754,25 @@ export default function App() {
         </>
       )}
 
-      {/* ── Footer ─────────────────────────────────────────────────────────── */}
+      {/* Footer */}
       <footer className="bg-zinc-900 border-t border-zinc-800 py-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
-            <Logo className="h-16 w-auto opacity-60" />
+            
+            {/* Klickbares Logo mit Graustufen-Hover-Effekt */}
+            <button 
+              type="button"
+              onClick={(e) => navigateTo('home', null, e)} 
+              className="focus:outline-none cursor-pointer"
+              aria-label="Zur Startseite und nach oben scrollen"
+            >
+              <Logo className="h-16 w-auto grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300" />
+            </button>
+
             <div className="flex gap-6 text-sm text-zinc-500">
-              <button onClick={(e) => navigateTo('impressum', e)} className="hover:text-amber-400 transition-colors">Impressum</button>
-              <button onClick={(e) => navigateTo('datenschutz', e)} className="hover:text-amber-400 transition-colors">Datenschutz</button>
-              <button onClick={(e) => navigateTo('agb', e)} className="hover:text-amber-400 transition-colors">AGB</button>
+              <button type="button" onClick={(e) => navigateTo('impressum', null, e)} className="hover:text-amber-400 transition-colors">Impressum</button>
+              <button type="button" onClick={(e) => navigateTo('datenschutz', null, e)} className="hover:text-amber-400 transition-colors">Datenschutz</button>
+              <button type="button" onClick={(e) => navigateTo('agb', null, e)} className="hover:text-amber-400 transition-colors">AGB</button>
             </div>
             <p className="text-xs text-zinc-600">© {new Date().getFullYear()} Hybrid Preparation Camp</p>
           </div>
