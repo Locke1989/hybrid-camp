@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/hybrid-camp/static/css/main.4a0131b1.css",
-    "main.js": "/hybrid-camp/static/js/main.475d4aac.js",
+    "main.css": "/hybrid-camp/static/css/main.f482f9b4.css",
+    "main.js": "/hybrid-camp/static/js/main.029c66af.js",
     "static/js/453.a9abd27f.chunk.js": "/hybrid-camp/static/js/453.a9abd27f.chunk.js",
     "index.html": "/hybrid-camp/index.html",
-    "main.4a0131b1.css.map": "/hybrid-camp/static/css/main.4a0131b1.css.map",
-    "main.475d4aac.js.map": "/hybrid-camp/static/js/main.475d4aac.js.map",
+    "main.f482f9b4.css.map": "/hybrid-camp/static/css/main.f482f9b4.css.map",
+    "main.029c66af.js.map": "/hybrid-camp/static/js/main.029c66af.js.map",
     "453.a9abd27f.chunk.js.map": "/hybrid-camp/static/js/453.a9abd27f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a0131b1.css",
-    "static/js/main.475d4aac.js"
+    "static/css/main.f482f9b4.css",
+    "static/js/main.029c66af.js"
   ]
 }
