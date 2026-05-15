@@ -766,7 +766,7 @@ export default function App() {
               className="focus:outline-none cursor-pointer"
               aria-label="Zur Startseite und nach oben scrollen"
             >
-              <Logo className="h-16 w-auto grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300" />
+              <Logo className="h-24 w-auto grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300" />
             </button>
 
             <div className="flex gap-6 text-sm text-zinc-500">
