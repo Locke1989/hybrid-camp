@@ -758,7 +758,7 @@ export default function App() {
       <footer className="bg-zinc-900 border-t border-zinc-800 py-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
-            <Logo className="h-8 w-auto opacity-60" />
+            <Logo className="h-16 w-auto opacity-60" />
             <div className="flex gap-6 text-sm text-zinc-500">
               <button onClick={(e) => navigateTo('impressum', e)} className="hover:text-amber-400 transition-colors">Impressum</button>
               <button onClick={(e) => navigateTo('datenschutz', e)} className="hover:text-amber-400 transition-colors">Datenschutz</button>
