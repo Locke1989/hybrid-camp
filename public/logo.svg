@@ -10,7 +10,7 @@
     </linearGradient>
   </defs>
   
-  <g transform="translate(100,50) scale(2.2)">
+  <g transform="translate(65,65) scale(3)">
        <path d="M10,0 L40,0 L30,90 L0,90 Z" fill="url(#gold)"/>
        <path d="M60,0 L90,0 L80,90 L50,90 Z" fill="url(#silver)"/>
        <path d="M22,40 L78,40 L73,55 L18,55 Z" fill="#ffffff"/>
